@@ -4,7 +4,7 @@
 
 ## Learn the Basics of Git in Under 10 Minutes
 
-Yes, the title is clickbait. There is no way you can *understand* the basics of git technology in just 10 minutes. But you can get pretty close in about 25 minutes. And that is the purpose of this article.
+Yes, the title is a clickbait. There is no way you can *understand* the basics of git technology in just 10 minutes. But you can get pretty close in about 25 minutes. And that is the purpose of this article.
 
 If you want to get started on learning about Git technology, you’ve come to the right place. This is a comprehensive beginner’s guide to Git. There are many clients for Git. The technology is all the same no matter the client. But in this guide, we’ll be using GitHub to understand Git.
 
@@ -173,7 +173,7 @@ Now to commit files you added to your git repo:
 
 ### Uncommit Changes you just made to your Git Repo:
 
-Now suppose you just made some error in your code or placed an unwanted file inside the repository, you can unstage the files you just added using:
+Now suppose you just encountered some error in your code or placed an unwanted file inside the repository, you can unstage the files you just added using:
 
     $ git reset HEAD~1
     # Remove the most recent commit
@@ -183,7 +183,7 @@ Now suppose you just made some error in your code or placed an unwanted file ins
 
 ### Add a remote origin and Push:
 
-Now each time you make changes in your files and save it, it won’t be automatically updated on GitHub. All the changes we made in the file are updated in the local repository. Now to update the changes to the master:
+Now each time you make changes to your files and save, it won’t be automatically updated on GitHub. All the changes we made in the file are updated in the local repository. Now to update the changes to the master:
 
     $ git remote add origin *remote_repository_URL
     # sets the new remote
@@ -209,7 +209,7 @@ And that’s it. You’ve just added the files to the repository you just create
 
 ### See the Changes you made to your file:
 
-Once you start making changes on your files and you save them, the file won’t match the last version that was committed to git. To see the changes you just made:
+Once you start making changes to your files and you save them, the file won’t match the last version that was committed to git. To see the changes you just made:
 
     $ git diff # To show the files changes not yet staged
 
@@ -252,7 +252,7 @@ Now if we go and see our repo, we can identify whether the commit was successful
 
 ### Cloning a Git Repo:
 
-Locate to the directory you want to clone the repo. Copy the link of the repository you want and enter the following:
+Locate the directory you want to clone the repo. Copy the link of the repository you want and enter the following:
 
     $ git clone *remote_repository_URL
 
